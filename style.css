@@ -1,0 +1,149 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+.body{
+    background-color: #f1f1f1;
+    height: 1440px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 108px;
+    width: 100%;
+    padding: 32px 104px;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 400;
+    color: #202020;
+}
+
+.nav-bar ul{
+    display: flex;
+    margin: 0;
+}
+
+.nav-bar ul li{
+    padding: 0px 16px;
+}
+
+.nav-bar ul li a{
+    color:#202020;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.nav-bar ul li a:hover{
+
+}
+
+.ilist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid #202020;
+    border-radius: 360px;   
+    padding: 8px 16px;
+    gap: 4px;
+    background-color: rgb(211, 211, 211, .25);
+}
+
+.ilist a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#202020;
+}
+
+
+.main{
+    display: flex;
+    gap: 48px;
+    flex-direction: column;
+    padding: 32px 104px;
+}
+
+section{
+    display: flex;
+    gap: 48px;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    gap: 24px;
+}
+
+.aside > *{
+    font-size: 16px;
+    
+}
+
+.aside-list{
+    gap: 8px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.aside-products{
+    gap: 8px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.dotted{
+    list-style: circle;
+}
+
+.product-details{
+    display: flex;
+    flex-direction: column;
+    width: 572px;
+    height: 488px;
+    gap: 32px;
+}
+
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    height: 412px;
+}
+
+.text h2{
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    font-family: 'newsreader';
+    font-size: 48px;
+    font-style:italic;
+    font-weight: lighter;
+}
+.product-info{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    height: 317px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.add{
+    border-radius: 24px;
+}
